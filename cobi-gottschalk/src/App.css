@@ -1,0 +1,498 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Babylonica&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:wght@300&display=swap");
+
+/* -------------------------UNIVERSAL RULES BELOW------------------------------ */
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  background-color: rgb(0, 0, 0, 0.85);
+  background-color: rgb(0, 0, 0);
+}
+
+.secondary-nav-link.active {
+  color: rgb(245, 245, 245);
+  /* color: black; */
+  box-shadow: 60px -16px rgb(0, 0, 0);
+  box-shadow: 10px 5px 5px rgb(75, 75, 75);
+  padding: 15px;
+  transition: 800ms box-shadow;
+  /* box-shadow: inset 5em 1em rgb(71, 71, 71); */
+}
+
+.secondary-nav-link .active {
+  /* background-color: white; */
+  color: rgb(255, 255, 255);
+  font-family: "Oswald", sans-serif;
+}
+
+/* .portfolio-container-component{
+  
+} */
+
+Footer {
+  margin-top: auto;
+}
+
+/* -------------------------UNIVERSAL RULES ABOVE------------------------------ */
+
+/*------------------------------ NavTabs Component BELOW---------------------------- */
+
+/*------------------------------ NavTabs Component ABOVE---------------------------- */
+
+.csun-logo,
+.ljmu-logo,
+.ucsd-logo {
+  width: 200px;
+  height: 200px;
+}
+
+.navigation-tabs {
+  display: flex;
+  margin: 0;
+}
+
+.navigation-item {
+  margin-left: 10px;
+  font-size: 22px;
+  letter-spacing: 2px;
+  font-family: "Oswald", sans-serif;
+}
+
+.nav-link {
+  margin: 0;
+  width: 25%;
+  font-size: 56px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 900;
+  text-decoration: none;
+  margin: 40px;
+  margin-left: -160px;
+  list-style: none;
+  background-color: none;
+  color: black;
+  list-style: none;
+}
+
+.secondary-nav-component ul {
+  background-color: transparent;
+  text-wrap: nowrap;
+}
+
+.secondary-nav-component {
+  margin: 0;
+  width: 30%;
+  background-color: rgb(255, 255, 255);
+  border-right: solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+a.secondary-nav-link {
+  color: rgb(0, 0, 0);
+  font-family: "Bebas Neue", sans-serif;
+  color: #000; /* Text color */
+  -webkit-text-stroke: 0.01px #000000; /* Outline color and width for Chrome */
+  text-stroke: 2px #fff; /* Outline color and width for other browsers */
+  transition: 200ms color ease;
+}
+
+a.secondary-nav-link:hover {
+  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+}
+
+svg {
+  padding: 5px;
+  transform: rotateX(0.1turn);
+  margin: 10px;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 50%;
+}
+
+svg:hover {
+  transition: 1s;
+  transform: rotateX(0);
+}
+
+svg:active {
+  transition: 0.1s;
+  transition: ease-in-out;
+  transform: rotateX(0.5);
+}
+
+path {
+  color: black;
+}
+
+/* --------------------HERO COMPONENT BELOW--------------- */
+
+.hero-component {
+  background-color: rgb(129, 0, 0);
+  /* height: 100%; */
+  width: 100%;
+  z-index: 1;
+  background-image: url("https://images.unsplash.com/photo-1558730234-d8b2281b0d00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHBvcnRyYWl0fGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-image {
+  /* width: 200px; */
+  /* height: 100%; */
+}
+
+.secondary-nav-and-hero {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* --------------------HERO COMPONENT ABOVE--------------- */
+
+/*--------------------------- Portfolio Page--------------------------------- */
+
+.projects-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.recent-work {
+  padding-bottom: 8px;
+}
+
+.project-container {
+  /* width: 271.2px; */
+  /* height: 400px; */
+  border: solid rgb(0, 0, 0);
+
+  margin: 10px;
+  opacity: 0.9;
+  transition: opacity 500ms, border 500ms, box-shadow 500ms;
+  /* box-shadow: 8px 5px 5px rgb(2, 2, 2); */
+  background-color: black;
+}
+
+.project-container:hover {
+  opacity: 1;
+  border: solid white;
+  filter: brightness(1.2);
+  filter: grayscale(0.1);
+  box-shadow: 5px 6px 6px rgb(20, 20, 20);
+}
+
+.project-image {
+  width: 266.5px;
+  height: 395px;
+  cursor: pointer;
+  /* box-shadow: 5px 6px 6px rgb(0, 0, 0); */
+}
+
+.project-name-overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.95);
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+  font-size: 20px;
+  width: 266.5px;
+  font-family: "Oswald", sans-serif;
+}
+
+.project-github-overlay {
+  position: absolute;
+  z-index: 2;
+  margin-left: 0px;
+  margin-top: 40px;
+  border-radius: 0px;
+  border: solid black;
+  border-left: none;
+  height: 35px;
+  width: 35px;
+}
+
+.project-github-overlay:hover {
+  /* opacity: 1; */
+  /* border: solid white; */
+  box-shadow: 5px 6px 6px rgb(20, 20, 20);
+}
+
+.project-information-overlay {
+  position: absolute;
+  z-index: 2;
+  margin-top: 85px;
+  margin-left: 0px;
+  height: 35px;
+  width: 35px;
+
+  user-select: none;
+  border: solid black;
+  border-left: none;
+  border-radius: 0px;
+}
+
+.project-information-overlay:hover {
+  box-shadow: 5px 6px 6px rgb(20, 20, 20);
+}
+
+.project-summary-overlay {
+  position: absolute;
+  z-index: 2;
+  color: rgba(0, 0, 0, 0.9);
+  /* margin-top: -270px; */
+  margin-top: -260px;
+  padding: 10px;
+  background-color: white;
+  width: 246px;
+  border-bottom: solid black;
+  border-top: solid black;
+  animation-name: fadeIn;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+  font-family: serif;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  background-color: #000000;
+  color: white;
+
+}
+
+.project-tech-overlay {
+  position: absolute;
+  width: 266.5px;
+
+  background-color: rgba(0, 0, 0, 0.95);
+  color: white;
+  margin-top: -50px;
+  height: 50px;
+  text-align: center;
+  font-family: serif;
+  opacity: 0.95;
+  background-color: black;
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-duration: 800ms;
+  animation-fill-mode: forwards;
+}
+
+.fadeOut {
+  animation-name: fadeOut;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 0.95;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* ------------------------------FIRST NAV BELOW----------------------------------------------- */
+
+.first-name {
+  padding: 10px;
+  color: white;
+  letter-spacing: 5px;
+  margin-top: 10px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 100;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  list-style: none;
+}
+
+a.navigation-link {
+  color: white;
+  text-decoration: none;
+}
+
+a.navigation-link:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.navigation-resume a.navigation-link {
+  transition: 250ms background-color ease-in;
+}
+
+.navigation-resume a.navigation-link:hover {
+  color: rgb(161, 0, 0);
+  /* border: solid white 0.5px; */
+  background-color: white;
+  color: black;
+}
+
+.navigation-contact {
+  border: solid white 1px;
+  transition: 200ms background-color;
+  color: black;
+  cursor: pointer;
+}
+
+.navigation-contact:hover {
+  background-color: white;
+  color: black;
+}
+
+.navigation-resume {
+  color: white;
+}
+
+.navigation-tabs {
+}
+
+.resume-contact {
+  display: flex;
+  margin-right: 40px;
+  margin-bottom: 25px;
+}
+
+.navigation-link {
+  transition: 200ms color;
+  padding: 5px 10px;
+}
+
+a.navigation-link:hover {
+  color: black;
+}
+
+a.navigation-link .navigation-resume:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.navigation-item {
+  height: min-content;
+  font-family: "Oswald", "Courier New", Courier, monospace;
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+
+/* ------------------------------FIRST NAV ABOVE----------------------------------------------- */
+
+
+/* -----------------------------SECONDARY NAV START --------------------------------------*/
+.secondary-nav-component {
+}
+/* ------------------------------SECONDARY NAV END--------------------------------- */
+
+/* --------------------------------ABOUT COMPONENT START----------------------------- */
+
+.about-component {
+  display: flex;
+  padding: 20px;
+  height: 200px;
+
+}
+
+/* ------------------------------ABOUT COMPONENT END */
+
+
+
+
+
+
+
+
+/* ------------------------------FORM BELOW--------------------------- */
+
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+
+  /* max-width: 600px;
+  margin: 0 auto; */
+}
+
+.form-label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column; /* Display form controls in a column layout */
+  margin-bottom: 15px;
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-top: 5px; /* Adjust top margin to add space between label and input */
+  resize: vertical;
+}
+
+.submit-btn {
+  background-color: #007bff;
+  width: 100%;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+
+
+/* -------------------------------FORM ABOVE----------------------------- */
+
+/* -------------------Footer Component BELOW----------------- */
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.755);
+  background-color: rgb(0, 0, 0);
+  top: 0;
+  position: sticky;
+}
+
+/* -------------------Footer Component ABOVE----------------- */
