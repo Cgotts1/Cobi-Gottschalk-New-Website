@@ -70,8 +70,8 @@ export default function Contact() {
   }
 
   return (
-    <div class="contact-container fadeIn">
-      <div className="contact-me-container">
+    <div class="contact-component fadeIn">
+      {/* <div className="contact-me-container">
         <h1>Contact Me</h1>
       </div>
 
@@ -82,12 +82,54 @@ export default function Contact() {
             gottschalk.cobi@gmail.com
           </a>
         </h2>
-      </div>
+      </div> */}
 
 
-      <div className="contact-page">
+
+<section className="left-section-one"></section>
+
+<section className="right-section-one">
+
+<div className="contact-form">
           <Form ref={form} onSubmit={(event) => stopFOUC(event)}>
-            <Form.Group className="mb-3">
+            <Form.Group>
+              <Form.Label className="form-label">Name</Form.Label> <br></br>
+              <Form.Control
+                type="text"
+                placeholder="John Smith"
+                name="from_name"
+                id="from_name"
+              />
+              <br></br>
+              <Form.Label>Email address</Form.Label> <br></br>
+              <Form.Control
+                id="email"
+                type="email"
+                placeholder="name@example.com"
+                pattern="[A-Za-z0-9\.]+@[A-Za-z0-9\.]+\.[A-Za-z0-9\.]{1,10}"
+                name="email"
+              />
+            </Form.Group>
+            <Form.Group >
+              <Form.Label>Message</Form.Label> <br></br>
+              <Form.Control name="message" as="textarea"  />
+            </Form.Group>
+            <Button
+              className="submit-btn"
+              as="input"
+              type="submit"
+              value="Send"
+            />
+          </Form>
+      </div>
+</section>
+
+
+
+
+      {/* <div className="contact-form">
+          <Form ref={form} onSubmit={(event) => stopFOUC(event)}>
+            <Form.Group>
               <Form.Label>Name</Form.Label> <br></br>
               <Form.Control
                 type="text"
@@ -105,9 +147,9 @@ export default function Contact() {
                 name="email"
               />
             </Form.Group>
-            <Form.Group className="mb-3">
+            <Form.Group >
               <Form.Label>Message</Form.Label> <br></br>
-              <Form.Control name="message" as="textarea" rows={5} />
+              <Form.Control name="message" as="textarea"  />
             </Form.Group>
             <Button
               className="submit-btn"
@@ -116,7 +158,7 @@ export default function Contact() {
               value="Send"
             />
           </Form>
-      </div>
+      </div> */}
     </div>
   );
 }

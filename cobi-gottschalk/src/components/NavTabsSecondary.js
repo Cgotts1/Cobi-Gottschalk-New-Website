@@ -25,11 +25,21 @@ function NavTabsSecondary({ currentPage, handlePageChange }) {
           Portfolio
         </a>
       </li>  
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <a
           href="#education"
           onClick={() => handlePageChange('Resume')}
           className={currentPage === 'Resume' ? 'secondary-nav-link active' : 'secondary-nav-link'}
+        >
+          Education
+        </a>
+      </li> */}
+
+      <li className="nav-item">
+        <a
+          href="#education"
+          onClick={() => handlePageChange('Education')}
+          className={currentPage === 'Education' ? 'secondary-nav-link active' : 'secondary-nav-link'}
         >
           Education
         </a>

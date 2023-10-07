@@ -4,7 +4,7 @@ import image5 from "../../images/image5.jpg";
 export default function About() {
   return (
     <div className="about-component fadeIn">
-      <section>
+      {/* <section>
         <p>
           With a Master of Science degree in forensic anthropology from
           Liverpool John Moores University and a Bachelor of Arts degree in
@@ -31,7 +31,13 @@ export default function About() {
           software development make me a well-rounded and versatile candidate
           for a variety of roles in both fields.
         </p>
-      </section>
+      </section> */}
+
+<section className="left-section-one"></section>
+<section className="right-section-one"></section>
+
+
+
     </div>
   );
 }

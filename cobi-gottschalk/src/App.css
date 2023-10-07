@@ -37,12 +37,55 @@ ul {
 }
 
 /* .portfolio-container-component{
-  
+  height: 100vh;
 } */
 
 Footer {
   margin-top: auto;
 }
+
+
+
+
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  /* border-radius: 10px; */
+  background-color: rgb(245, 245, 245);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 0, 0); 
+  /* border-radius: 5px; */
+}
+
+
+::-webkit-scrollbar-thumb{
+  transition: 200ms color;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #aaaaaa; 
+}
+
+
+
+
+
+
+
+
 
 /* -------------------------UNIVERSAL RULES ABOVE------------------------------ */
 
@@ -50,9 +93,7 @@ Footer {
 
 /*------------------------------ NavTabs Component ABOVE---------------------------- */
 
-.csun-logo,
-.ljmu-logo,
-.ucsd-logo {
+.school-logos {
   width: 200px;
   height: 200px;
 }
@@ -120,7 +161,7 @@ svg {
   margin: 10px;
   cursor: pointer;
   background-color: white;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 
 svg:hover {
@@ -160,6 +201,36 @@ path {
 .secondary-nav-and-hero {
   display: flex;
   justify-content: flex-end;
+}
+
+
+.hero-portfolio{
+  background-color: rgb(129, 0, 0);
+  /* height: 100%; */
+  width: 100%;
+  z-index: 1;
+  background-image: url("https://plus.unsplash.com/premium_photo-1682125740214-fcddeef28561?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+/* Define different hero image classes */
+.hero-portfolio {
+  background-image: url("https://images.unsplash.com/photo-1558730234-d8b2281b0d00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHBvcnRyYWl0fGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60");
+}
+
+.hero-education {
+  background-image: url("https://plus.unsplash.com/premium_photo-1682125740214-fcddeef28561?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60");
 }
 
 /* --------------------HERO COMPONENT ABOVE--------------- */
@@ -415,11 +486,30 @@ a.navigation-link .navigation-resume:hover {
 
 .about-component {
   display: flex;
-  padding: 20px;
-  height: 200px;
-
+  padding: 0px;
+  height: 100%;
+  margin: 0;
+  /* height: 50vh; */
 }
 
+.about-h2{
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  color: white;
+  margin: 0;
+}
+
+.left-section-one{
+  width: 50%;
+  background-color: rgb(255, 255, 255);
+  height: 500px;
+}
+
+.right-section-one{
+  width: 50%;
+  background-color: rgb(0, 0, 0);
+  height: 500px;
+}
 /* ------------------------------ABOUT COMPONENT END */
 
 
@@ -431,49 +521,50 @@ a.navigation-link .navigation-resume:hover {
 
 /* ------------------------------FORM BELOW--------------------------- */
 
-.contact-page {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
 
-  /* max-width: 600px;
-  margin: 0 auto; */
+.contact-component{
+  display: flex;
+  justify-content: center;
+  /* height: 50vh; */
 }
+
+.contact-form{
+  /* width: 506px; */
+  /* padding: 20px; */
+  margin: 50px;
+}
+
 
 .form-label {
   font-size: 1.2rem;
   font-weight: bold;
-  color: #333;
-  margin-bottom: 10px;
+  color: #ffffff;
+  font-family: "Oswald", sans-serif;
 }
 
-.form-group {
-  display: flex;
-  flex-direction: column; /* Display form controls in a column layout */
-  margin-bottom: 15px;
-}
-
-.form-input,
-.form-textarea {
+input{
+  width: 500px;
   width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 1rem;
-  margin-top: 5px; /* Adjust top margin to add space between label and input */
-  resize: vertical;
 }
+
+textarea{
+  width: 100%;
+  height: 200px;
+}
+
+
+
 
 .submit-btn {
   background-color: #007bff;
-  width: 100%;
+  width: 101%;
   color: #fff;
   border: none;
   padding: 10px 20px;
   font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.3s;
+  
 }
 
 .submit-btn:hover {

@@ -7,6 +7,7 @@ import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Footer from './Footer';
 import Hero from './Hero';
+import Education from "./pages/Education";
 
 
 
@@ -26,6 +27,9 @@ export default function PortfolioContainer() {
     }
     if (currentPage === 'Resume') {
       return <Resume />;
+    }
+    if (currentPage === 'Education') {
+      return <Education />;
     }
     return <Contact />;
   };
