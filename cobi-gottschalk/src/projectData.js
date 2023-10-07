@@ -10,6 +10,7 @@ import spotifyAssistant from "./images/spotify-assistant.png"
 
 export const projects = [
     {
+      projectType: 'Front End',
       projectName: 'Film Finder',
       projectGitHub: 'https://github.com/Cgotts1/API-Project',
       projectSite:'https://cgotts1.github.io/Film-Finder/',
@@ -18,6 +19,7 @@ export const projects = [
       projectTech: "🛠 HTML | CSS | JS Bootstrap | APIs: OMDB & TMDB",
     },
     {
+      projectType: 'Front End',
       projectName: 'Quote Generator',
       projectGitHub: 'https://github.com/Cgotts1/Quote-Generator',
       projectSite:'https://cgotts1.github.io/Quote-Generator/',
@@ -26,6 +28,7 @@ export const projects = [
       projectTech: "🛠 HTML | CSS | JS",
     },
     {
+      projectType: 'Front End',
       projectName: 'Weather Dashboard',
       projectGitHub: 'https://github.com/Cgotts1/Weather-Dashboard',
       projectSite:'https://cgotts1.github.io/Weather-Dashboard/',
@@ -34,6 +37,7 @@ export const projects = [
       projectTech: "🛠 HTML | CSS | JS | Bootstrap API: Openweathermap",
     },
     {
+      projectType: 'Front End',
       projectName: 'Work Day Scheduler',
       projectGitHub: 'https://github.com/Cgotts1/Work-Day-Scheduler',
       projectSite:'https://cgotts1.github.io/Work-Day-Scheduler/',
@@ -42,6 +46,7 @@ export const projects = [
       projectTech: "🛠 HTML | CSS | JS | Bootstrap Moment.js | jquery",
     },
     {
+      projectType: 'Front End',
       projectName: 'Password Generator',
       projectGitHub: 'https://github.com/Cgotts1/Password-Generator',
       projectSite:'https://cgotts1.github.io/Password-Generator/',
@@ -50,6 +55,7 @@ export const projects = [
       projectTech: "🛠 HTML | CSS | JS",
     },
     {
+      projectType: 'Front End',
       projectName: 'Anthropology Quiz',
       projectGitHub: 'https://github.com/Cgotts1/Anthropology-Quiz',
       projectSite:'https://cgotts1.github.io/Anthropology-Quiz/',
@@ -58,6 +64,7 @@ export const projects = [
       projectTech: "🛠 HTML | CSS | JS",
     },
     {
+      projectType: 'Front End',
       projectName: 'Color Changer',
       projectGitHub: 'https://github.com/Cgotts1/color-changer',
       projectSite:'https://cgotts1.github.io/Color-Changer/',
@@ -66,6 +73,7 @@ export const projects = [
       projectTech: "🛠 HTML | CSS | JS",
     },
     {
+      projectType: 'Front End',
       projectName: 'Flash Cards',
       projectGitHub: 'https://github.com/Cgotts1/JS-Flash-Cards',
       projectSite:'https://cgotts1.github.io/JS-Flash-Cards/',
@@ -74,6 +82,7 @@ export const projects = [
       projectTech: "🛠 HTML | CSS | JS",
     },
     {
+      projectType: 'Back End',
       projectName: 'Readme Generator',
       projectGitHub: 'https://github.com/Cgotts1/readme-generator',
       projectSite:'https://drive.google.com/file/d/1nTql6j8v9ov0MurceNV8lzc9ybklxvvY/view',
@@ -82,6 +91,7 @@ export const projects = [
       projectTech: "🛠 HTML | CSS | JS Node.js | Inquirer",
     },
     {
+      projectType: 'Back End',
       projectName: 'Team Profile Generator',
       projectGitHub: 'https://github.com/Cgotts1/Team-Profile-Generator',
       projectSite:'https://drive.google.com/file/d/1h6JLU5_bIjOT5hWXo3d54XxKFUUBkfhP/view',
@@ -90,6 +100,7 @@ export const projects = [
       projectTech: "🛠 HTML | CSS | JS Node.js | Inquirer",
     },
     {
+      projectType: 'Full Stack',
       projectName: 'Fitness Plan',
       projectGitHub: 'https://github.com/Ryan-M-Taylor/Fitness-Plan',
       projectSite:'https://protected-woodland-15218.herokuapp.com/',
@@ -98,6 +109,7 @@ export const projects = [
       projectTech: "🛠 HTML | CSS | JS | Chart.js Bootstrap | MySQL | Express",
     },
     {
+      projectType: 'Full Stack',
       projectName: 'Gamer Match',
       projectGitHub: 'https://github.com/Ryan-M-Taylor/Gamer-Match',
       projectSite:'https://peaceful-brook-99319.herokuapp.com/',
@@ -106,6 +118,7 @@ export const projects = [
       projectTech: "🛠 HTML | CSS | JS | MongoDB Express | React.js | Node.js",
     },
     {
+      projectType: 'Full Stack',
       projectName: 'Tech Blog',
       projectGitHub: 'https://github.com/Cgotts1/Tech-Blog',
       projectSite:'https://Tech-blog-cgotts1.herokuapp.com/',
@@ -114,6 +127,7 @@ export const projects = [
       projectTech: "🛠 HTML | CSS | JS | MySQL | Express Handlebars.js",
     },
     {
+      projectType: 'Full Stack',
       projectName: 'Note Taker Responsive',
       projectGitHub: 'https://github.com/Cgotts1/Note-Taker-Responsive',
       projectSite:'https://note-taker-responsive.herokuapp.com/',
@@ -122,6 +136,7 @@ export const projects = [
       projectTech: "🛠 HTML | CSS | JS Express | Node.js",
     },
     {
+      projectType: 'Front End',
       projectName: 'Spotify Assistant',
       projectGitHub: 'https://github.com/Cgotts1/Spotify-Assistant/tree/main/spotify-assistant',
       projectSite:'https://drive.google.com/file/d/1fKRlz5XUOwaJzY1eqUogHfDwFMKnGTex/view',
