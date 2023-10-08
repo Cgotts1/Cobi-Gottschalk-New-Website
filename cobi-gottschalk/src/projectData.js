@@ -16,7 +16,7 @@ export const projects = [
       projectSite:'https://cgotts1.github.io/Film-Finder/',
       projectImage: 'https://cgotts1.github.io/V4-Portfolio/images/film-finder.jpg',
       projectSummary: "A movie search web application that utilizes two APIs and local storage to render a movie's information and its respective movie poster.",
-      projectTech: "🛠 HTML | CSS | JS Bootstrap | APIs: OMDB & TMDB",
+      projectTech: "🛠 HTML | CSS | JS | Bootstrap | APIs: OMDB & TMDB",
     },
     {
       projectType: 'Front End',
@@ -34,7 +34,7 @@ export const projects = [
       projectSite:'https://cgotts1.github.io/Weather-Dashboard/',
       projectImage: 'https://cgotts1.github.io/V4-Portfolio/images/weather-dashboard.jpg',
       projectSummary: "A weather dashboard that utilizes Openweathermap's API to retrieve weather information for a five day forecast.",
-      projectTech: "🛠 HTML | CSS | JS | Bootstrap API: Openweathermap",
+      projectTech: "🛠 HTML | CSS | JS | Bootstrap | API: Openweathermap",
     },
     {
       projectType: 'Front End',
@@ -43,7 +43,7 @@ export const projects = [
       projectSite:'https://cgotts1.github.io/Work-Day-Scheduler/',
       projectImage: 'https://cgotts1.github.io/V4-Portfolio/images/work-day-scheduler.jpg',
       projectSummary: "A scheduler application that allows a user to save events for each hour of the day. Each time block will default to a certain color depending on whether the time is past, present, or future.",
-      projectTech: "🛠 HTML | CSS | JS | Bootstrap Moment.js | jquery",
+      projectTech: "🛠 HTML | CSS | JS | Bootstrap | Moment.js | jquery",
     },
     {
       projectType: 'Front End',
@@ -106,7 +106,7 @@ export const projects = [
       projectSite:'https://protected-woodland-15218.herokuapp.com/',
       projectImage: `${fitnessPlan}`,
       projectSummary: "A fitness application allowing users to make an account and create a weekly workout routine that tracks their physical activities and time spent exercising.",
-      projectTech: "🛠 HTML | CSS | JS | Chart.js Bootstrap | MySQL | Express",
+      projectTech: "🛠 HTML | CSS | JS | Chart.js | Bootstrap | MySQL | Express",
     },
     {
       projectType: 'Full Stack',
@@ -115,7 +115,7 @@ export const projects = [
       projectSite:'https://peaceful-brook-99319.herokuapp.com/',
       projectImage: `${gamerMatch}`,
       projectSummary: "A gaming social media application where users can go to connect with fellow gamers with similar interests. Users can toggle between different console forums, add friends, and post comments.",
-      projectTech: "🛠 HTML | CSS | JS | MongoDB Express | React.js | Node.js",
+      projectTech: "🛠 HTML | CSS | JS | MongoDB | Express | React.js | Node.js",
     },
     {
       projectType: 'Full Stack',
@@ -124,7 +124,7 @@ export const projects = [
       projectSite:'https://Tech-blog-cgotts1.herokuapp.com/',
       projectImage: `${techBlog}`,
       projectSummary: "A Tech blog application that allows users to make an account and engage with other users through creating and commenting on posts.",
-      projectTech: "🛠 HTML | CSS | JS | MySQL | Express Handlebars.js",
+      projectTech: "🛠 HTML | CSS | JS | MySQL | Express | Handlebars.js",
     },
     {
       projectType: 'Full Stack',

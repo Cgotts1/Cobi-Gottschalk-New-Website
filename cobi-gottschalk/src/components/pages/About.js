@@ -6,7 +6,7 @@ export default function About() {
     <div className="about-component fadeIn">
 
 
-<h2>Hello there!</h2>
+{/* <h2>Hello there!</h2> */}
 
       {/* <section>
         <p>

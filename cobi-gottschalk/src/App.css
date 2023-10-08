@@ -9,7 +9,10 @@
 /* -------------------------UNIVERSAL RULES BELOW------------------------------ */
 a {
   text-decoration: none;
+  color: rgb(255, 0, 0);
 }
+
+
 
 body {
   margin: 0;
@@ -43,6 +46,31 @@ margin-left: -40px;
 /* .portfolio-container-component{
   height: 100vh;
 } */
+
+
+
+
+
+
+
+
+.left-section-one{
+  width: 50%;
+  background-color: rgb(255, 255, 255);
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Bebas Neue';
+
+}
+
+.right-section-one{
+  width: 50%;
+  background-color: rgb(0, 0, 0);
+  height: 500px;
+}
 
 Footer {
   margin-top: auto;
@@ -98,8 +126,10 @@ Footer {
 /*------------------------------ NavTabs Component ABOVE---------------------------- */
 
 .school-logos {
-  width: 200px;
-  height: 200px;
+  width: 50%;
+  height: 50%;
+  width: 400px;
+  height: 400px;
 }
 
 .navigation-tabs {
@@ -607,15 +637,21 @@ a.navigation-link .navigation-resume:hover {
 }
 /* ------------------------------SECONDARY NAV END--------------------------------- */
 
-/* --------------------------------ABOUT COMPONENT START----------------------------- */
+
+
+
+
+
+
+
+/* --------------------------------ABOUT COMPONENT BELOW----------------------------- */
 
 .about-component {
   display: flex;
   padding: 0px;
   height: 100%;
-  /* margin: 0; */
   /* height: 50vh; */
-  margin: 25px;
+
 }
 
 .about-h2{
@@ -625,18 +661,8 @@ a.navigation-link .navigation-resume:hover {
   margin: 0;
 }
 
-.left-section-one{
-  width: 50%;
-  background-color: rgb(255, 255, 255);
-  height: 500px;
-}
 
-.right-section-one{
-  width: 50%;
-  background-color: rgb(0, 0, 0);
-  height: 500px;
-}
-/* ------------------------------ABOUT COMPONENT END */
+/* ------------------------------ABOUT COMPONENT ABOVE */
 
 
 
@@ -652,6 +678,10 @@ a.navigation-link .navigation-resume:hover {
   display: flex;
   justify-content: center;
   /* height: 50vh; */
+}
+
+.contact-h1{
+  font-size: 40px;
 }
 
 .contact-form{
@@ -709,39 +739,6 @@ textarea{
 
 
 /* ------------------------------RESEARCH BELOW ------------------------------ */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -896,10 +893,206 @@ footer {
 
 
 
+/* -------------------------------EDUCATION COMPONENT BELOW----------------------- */
 
+
+
+.hide{
+  display: none;
+}
+
+
+.container-right-left{
+  display: flex;
+}
+
+.csun-image{
+  background-image: url('https://i0.wp.com/nenc-la.org/wp-content/uploads/2021/05/CSUN.jpg?fit=1024%2C512&ssl=1');
+  justify-content: center;
+  background-size: cover;
+}
+
+  .education-left-section-one{
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+    
+  }
+  
+  .education-right-section-one{
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+  
+  }
+
+
+
+.csun-h1{
+  text-align: center;
+  font-family: 'Bebas Neue';
+  background-color: rgb(219, 0, 0);
+  color: white;
+  /* color: black; */
+  border: solid black 2px;
+
+}
+
+.left-container-one{
+  background-color: rgba(255, 255, 255, 0.856);
+  width: 60%;
+  height: 60%;
+  color: black;
+  text-align: center;
+  font-family: 'Bebas Neue';
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------ljmu below--------------- */
+
+
+.container-right-left{
+  display: flex;
+}
+
+.ljmu-image{
+  background-image: url('https://iceduindo.com/wp-content/uploads/2019/07/liverpool-john-moores-university-2.png');
+  justify-content: center;
+  background-size: cover;
+}
+
+  .education-left-section-one{
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  
+  .education-right-section-one{
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+  
+  }
+
+
+
+.ljmu-h1{
+  text-align: center;
+  font-family: 'Bebas Neue';
+  background-color: rgb(0, 82, 177);
+  color: white;
+  border: solid black 2px;
+}
+
+.left-container-one{
+  background-color: rgba(255, 255, 255, 0.856);
+  width: 60%;
+  height: 60%;
+  color: black;
+  text-align: center;
+  font-family: 'Bebas Neue';
+}
+
+/* -----------------ljmu above--------------- */
+
+/* -----------------ucsd below--------------- */
 
 
 
 .container-right-left{
   display: flex;
 }
+
+.ucsd-image{
+  background-image: url('https://extendedstudies.ucsd.edu/UCSDExtension/media/UCSDExtensionsMedia/about-division-of-extended-studies/locations-maps-and-transportation/hero-locations-maps-and-transportation-1.jpg');
+  justify-content: center;
+  background-size: cover;
+}
+
+  .education-left-section-one{
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  
+  .education-right-section-one{
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+  
+  }
+
+
+
+.ucsd-h1{
+  text-align: center;
+  font-family: 'Bebas Neue';
+  background-color: rgb(11, 43, 83);
+  color: white;
+  border: solid black 2px;
+  color: rgb(206, 175, 37);;
+
+}
+
+.left-container-one{
+  background-color: rgba(255, 255, 255, 0.856);
+  width: 60%;
+  height: 60%;
+  color: black;
+  text-align: center;
+  font-family: 'Bebas Neue';
+}
+
+
+
+
+
+
+
+
+/* -----------------ucsd above--------------- */
+
+
+
+
+
+
+
+/* -------------------------------EDUCATION COMPONENT ABOVE----------------------- */
