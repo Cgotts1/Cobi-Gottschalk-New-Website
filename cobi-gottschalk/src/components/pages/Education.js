@@ -8,24 +8,65 @@ import ucsd from "../../images/ucsd-logo.png";
 export default function Education({ currentPage, handlePageChange }) {
   return (
     
-    <div className="fadeIn resume-page">
-      <div className="resume-container">
+    <div className="fadeIn">
+
+
+
+<ul className='portfolio-nav'>
+        <li >CSUN</li>
+        <li >LJMU</li>
+        <li>UCSD</li>
+        <li >Awards</li>
+      </ul>
+
+
+
+<div className="container-right-left">
+
+      <section className="left-section-one">
+      <img class="school-logos" src={ucsd}/>
+      <img class="school-logos" src={csun}/>
+            <img class="school-logos" src={ljmu}/>
+
+</section>
+
+
+<section className="right-section-one">
+  {/* <h1>Please feel free to reach out!</h1> */}
+  <img class="school-logos" src={ucsd}/>
+  <img class="school-logos" src={csun}/>
+            <img class="school-logos" src={ljmu}/>
+
+</section>
+
+</div>
+
+
+      {/* <ul className='portfolio-nav'>
+        <li className={isCodingVisible ? 'portfolio-nav-active' : ''} onClick={showCoding}>Coding</li>
+        <li className={isTeachingVisible ? 'portfolio-nav-active' : ''} onClick={showTeaching}>Teaching</li>
+        <li className={isRealEstateVisible ? 'portfolio-nav-active' : ''} onClick={showRealEstate}>Real Estate</li>
+        <li className={isResearchVisible ? 'portfolio-nav-active' : ''} onClick={showResearch}>Research</li>
+      </ul> */}
+
+
+
+
+      {/* <div className="resume-container">
         <h1>My Skills</h1>
       </div>
 
       <div className="cv-container download">
         <h3>Download CV</h3>
-      </div>
+      </div> */}
 
      
-      
-      className={currentPage === 'Resume' ? 'navigation-link active' : 'navigation-link hero-portfolio'}
 
-            <div className="school-logo-container">
+            {/* <div className="school-logo-container">
             <img class="school-logos" src={csun}/>
             <img class="school-logos" src={ljmu}/>
             <img class="school-logos" src={ucsd}/>
-            </div>
+            </div> */}
     </div>
   );
 }

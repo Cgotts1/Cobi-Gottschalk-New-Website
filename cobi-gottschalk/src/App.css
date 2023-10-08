@@ -16,7 +16,7 @@ body {
 }
 
 ul {
-margin-left: -30px;
+margin-left: -40px;
 }
 
 .navigation{
@@ -55,9 +55,10 @@ Footer {
 
 
 
-/* 
+
 ::-webkit-scrollbar {
-  width: 20px;
+  width: 15px;
+  height: 5px;
 }
 
 
@@ -79,8 +80,8 @@ Footer {
 
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #aaaaaa; 
-} */
+  /* background: #aaaaaa;  */
+}
 
 
 
@@ -247,7 +248,7 @@ path {
 
 
 .portfolio-nav-active{
-  background-color: rgb(255, 1, 1);
+  background-color: rgb(255, 0, 0)
 }
 
 /* -------------------------- Portfolio Above------------------------- */
@@ -269,25 +270,24 @@ path {
   justify-content: space-around;
   list-style: none;
   font-family: "Bebas Neue", sans-serif;
+  border-bottom: #000000 solid 15px;
 }
 
 .coding-ul li{
   cursor: pointer;
   font-size: 20px;
+  text-shadow: #000;
+  transition: 200ms text-shadow ease;
+  /* background-color: black; */
+  /* color: white; */
+  /* padding: 10px; */
 }
 
 .coding-ul li:hover{
-  text-decoration: underline;
+  text-shadow: rgb(117, 117, 117) 1px 0 13px;
+  /* text-decoration: underline; */
+  /* text-shadow: none; */
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -506,24 +506,6 @@ path {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ------------------------------FIRST NAV BELOW----------------------------------------------- */
 
 .first-name {
@@ -722,6 +704,183 @@ textarea{
 
 /* -------------------------------FORM ABOVE----------------------------- */
 
+
+
+
+
+/* ------------------------------RESEARCH BELOW ------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.research-h1{
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  border-bottom: solid 15px;
+}
+
+
+
+.research-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+
+.research-container {
+  border: solid rgb(255, 255, 255);
+  margin: 10px;
+  opacity: 0.9;
+  transition: opacity 500ms, border 500ms, box-shadow 500ms;
+}
+
+.research-container:hover {
+  opacity: 1;
+  border: solid white;
+  filter: brightness(1.2);
+  filter: grayscale(0.1);
+  box-shadow: 5px 6px 6px rgb(20, 20, 20);
+}
+
+.research-image {
+  width: 266.5px;
+  height: 395px;
+  cursor: pointer;
+  box-shadow: 5px 6px 6px rgb(0, 0, 0);
+}
+
+.research-name-overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.95);
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+  font-size: 20px;
+  width: 266.5px;
+  font-family: "Oswald", sans-serif;
+  text-wrap: nowrap;
+  overflow-x: scroll;
+  height: 40px;
+}
+
+.research-github-overlay {
+  position: absolute;
+  z-index: 2;
+  margin-left: 0px;
+  margin-top: 40px;
+  border-radius: 0px;
+  border: solid black;
+  border-left: none;
+  height: 35px;
+  width: 35px;
+}
+
+.research-github-overlay:hover {
+  /* opacity: 1; */
+  /* border: solid white; */
+  box-shadow: 5px 6px 6px rgb(20, 20, 20);
+}
+
+.research-information-overlay {
+  position: absolute;
+  z-index: 2;
+  margin-top: 85px;
+  margin-left: -209px;
+  height: 35px;
+  width: 35px;
+  -webkit-user-select: none;
+  user-select: none;
+  border: solid black;
+  border-left: none;
+  border-radius: 0px;
+}
+
+.research-information-overlay:hover {
+  box-shadow: 5px 6px 6px rgb(20, 20, 20);
+}
+
+.research-summary-overlay {
+  position: absolute;
+  z-index: 2;
+  color: rgba(0, 0, 0, 0.9);
+  /* margin-top: -270px; */
+  margin-top: 135px;
+  padding: 10px;
+  background-color: white;
+  width: 246px;
+  border-bottom: solid black;
+  border-top: solid black;
+  animation-name: fadeIn;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+  font-family: serif;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+
+}
+
+.research-tech-overlay {
+  position: absolute;
+  width: 266.5px;
+
+  background-color: rgba(0, 0, 0, 0.95);
+  color: white;
+  margin-top: 345px;
+  /* margin-top: -62px; */
+  height: 50px;
+  text-align: center;
+  font-family: serif;
+  opacity: 0.95;
+  background-color: black;
+}
+
+/* --------------------------------RESEARCH ABOVE------------------------------- */
+
+
+
+
+
+
 /* -------------------Footer Component BELOW----------------- */
 
 footer {
@@ -734,3 +893,13 @@ footer {
 }
 
 /* -------------------Footer Component ABOVE----------------- */
+
+
+
+
+
+
+
+.container-right-left{
+  display: flex;
+}

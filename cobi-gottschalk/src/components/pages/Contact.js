@@ -86,7 +86,9 @@ export default function Contact() {
 
 
 
-<section className="left-section-one"></section>
+<section className="left-section-one">
+  <h1>Please feel free to reach out!</h1>
+</section>
 
 <section className="right-section-one">
 

@@ -4,6 +4,10 @@ import image5 from "../../images/image5.jpg";
 export default function About() {
   return (
     <div className="about-component fadeIn">
+
+
+<h2>Hello there!</h2>
+
       {/* <section>
         <p>
           With a Master of Science degree in forensic anthropology from
