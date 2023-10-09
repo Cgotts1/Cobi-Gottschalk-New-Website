@@ -9,13 +9,9 @@ function Hero({ currentPage, handlePageChange }) {
 
     <div className='hero-component'>
 
-{/* <img className="hero-image" src={heroImage} alt="Hero" /> */}
-{/* <img src={image7} style={{height: "339px", position:"absolute", marginTop: "0px"}} alt="Image 7"/> */}
 
-<div className='hero-image-two'>
-
-</div>
-
+{/* <iframe src="https://giphy.com/embed/gkCgDZHywXa6Y" width="100%" height="100%" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p></p> */}
+<iframe src="https://giphy.com/embed/Il9f7ZhytEiI0" width="100%" height="100%" frameBorder="0" class="giphy-embed" style={{userSelect: "none", pointerEvents: "none"}} allowFullScreen></iframe>
 {/* <h1 style={{color: "white", textAlign: "right"}}>Cobi Gottschalk, here to help solve crimes, improve schools, innovate tech, and take care of your real estate needs!</h1> */}
 
   </div>

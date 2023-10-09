@@ -9,7 +9,7 @@ import Contact from './pages/Contact';
 import Footer from './Footer';
 import Hero from './Hero';
 import Education from "./pages/Education";
-
+import ScrollToTopButton from './ScrollToTopButton';
 
 
 
@@ -41,6 +41,7 @@ export default function PortfolioContainer() {
 
   return (
     <div className='portfolio-container-component'>
+      <ScrollToTopButton /> {/* Render the ScrollToTopButton */}
       {/* <Video /> */}
       {/* We are passing the currentPage from state and the function to update it */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />

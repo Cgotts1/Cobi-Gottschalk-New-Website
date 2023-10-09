@@ -58,9 +58,6 @@ export default function Education({ currentPage, handlePageChange }) {
         <h1 className="ljmu-h1 fadeIn">Liverpool John Moores University</h1>
 
         <div className="container-right-left fadeIn">
-          <section className="education-right-section-one">
-            <img class="school-logos" src={ljmu} />
-          </section>
           <section className="education-left-section-one ljmu-image">
             <div className="left-container-one">
               <h1>Masters of Science Forensic Anthropology</h1>
@@ -71,6 +68,9 @@ export default function Education({ currentPage, handlePageChange }) {
               <p>Forensic Research Methods</p>
               <p>Taphonomy and Trauma Analysis</p>
             </div>
+          </section>
+          <section className="education-right-section-one">
+            <img class="school-logos" src={ljmu} />
           </section>
         </div>
       </div>

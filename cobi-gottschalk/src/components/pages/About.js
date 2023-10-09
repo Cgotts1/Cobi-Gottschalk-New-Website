@@ -50,6 +50,8 @@ export default function About() {
           languages like HTML, CSS, and JavaScript, I offer a versatile skill
           set that bridges anthropology and software development for a wide
           range of roles." */}
+    <i class="bi bi-arrow-up-square"></i>
+
         </p>
         </section>
 
