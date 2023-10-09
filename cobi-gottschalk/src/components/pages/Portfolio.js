@@ -44,8 +44,8 @@ export default function Portfolio() {
     <div className="portfolio-container fadeIn">
       <ul className='portfolio-nav'>
         <li className={isCodingVisible ? 'portfolio-nav-active' : ''} onClick={showCoding}>Coding</li>
-        <li className={isTeachingVisible ? 'portfolio-nav-active' : ''} onClick={showTeaching}>Teaching</li>
-        <li className={isRealEstateVisible ? 'portfolio-nav-active' : ''} onClick={showRealEstate}>Real Estate</li>
+        {/* <li className={isTeachingVisible ? 'portfolio-nav-active' : ''} onClick={showTeaching}>Teaching</li> */}
+        {/* <li className={isRealEstateVisible ? 'portfolio-nav-active' : ''} onClick={showRealEstate}>Real Estate</li> */}
         <li className={isResearchVisible ? 'portfolio-nav-active' : ''} onClick={showResearch}>Research</li>
       </ul>
 

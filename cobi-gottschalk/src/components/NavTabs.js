@@ -4,7 +4,7 @@ import React from 'react';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
 
-    <div>
+    <div className='sticky-nav'>
 
     <ul className="navigation navigation-tabs">  
 <h2 className='first-name'>Cobi <br></br>Gottschalk</h2>
@@ -39,11 +39,12 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
       <li className="navigation-item navigation-contact">
+      {/* <li  className={currentPage === 'Contact' ? ' navigation-item navigation-contact-border-none' : 'navigation-link navigation-contact'}> */}
         <a
           href="#contact"
           // style={{color: "black"}}
           onClick={() => handlePageChange('Contact')}
-          className={currentPage === 'Contact' ? 'navigation-link active' : 'navigation-link'}
+          className={currentPage === 'Contact' ? 'navigation-link navigation-contact-active' : 'navigation-link'}
         >
           Contact
         </a>
