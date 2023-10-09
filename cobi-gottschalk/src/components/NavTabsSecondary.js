@@ -25,15 +25,7 @@ function NavTabsSecondary({ currentPage, handlePageChange }) {
           Portfolio
         </a>
       </li>  
-      {/* <li className="nav-item">
-        <a
-          href="#education"
-          onClick={() => handlePageChange('Resume')}
-          className={currentPage === 'Resume' ? 'secondary-nav-link active' : 'secondary-nav-link'}
-        >
-          Education
-        </a>
-      </li> */}
+     
 
       <li className="nav-item">
         <a
@@ -44,16 +36,28 @@ function NavTabsSecondary({ currentPage, handlePageChange }) {
           Education
         </a>
       </li>
-      {/* <li className="nav-item nav-contact">
+
+
+
+      <li className="nav-item hide show-on-mobile">
+        <a
+          href="#resume"
+          onClick={() => handlePageChange('Resume')}
+          className={currentPage === 'Resume' ? 'secondary-nav-link active' : 'secondary-nav-link'}
+        >
+          Resume
+        </a>
+      </li>
+      <li className="nav-item hide show-on-mobile">
         <a
           href="#contact"
-          // style={{color: "black"}}
           onClick={() => handlePageChange('Contact')}
-          className={currentPage === 'Contact' ? 'nav-link active' : 'secondary-nav-link'}
+          className={currentPage === 'Contact' ? 'secondary-nav-link active' : 'secondary-nav-link'}
         >
           Contact
         </a>
-      </li> */}
+      </li>
+      
 
     </ul>
 

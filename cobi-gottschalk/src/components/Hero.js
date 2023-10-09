@@ -16,7 +16,7 @@ function Hero({ currentPage, handlePageChange }) {
 
 </div>
 
-<h1 style={{color: "white", textAlign: "right"}}>Cobi Gottschalk, here to help solve crimes, improve schools, innovate tech, and take care of your real estate needs!</h1>
+{/* <h1 style={{color: "white", textAlign: "right"}}>Cobi Gottschalk, here to help solve crimes, improve schools, innovate tech, and take care of your real estate needs!</h1> */}
 
   </div>
   );
