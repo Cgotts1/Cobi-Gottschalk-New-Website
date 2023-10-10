@@ -6,12 +6,31 @@ import cv from "./Tech-CV.pdf";
 
 export default function Resume() {
   return (
+
+
+
+
+
+
+
+
+    
     
     <div className="fadeIn resume-page">
-      <div className="resume-container">
-        <h1>My Skills</h1>
-      </div>
+      
 
+
+
+
+
+
+
+
+
+        
+       
+        <h1>My Skills</h1>
+      
       <div className="cv-container download">
         <h3>Download CV</h3>
       </div>
@@ -30,13 +49,12 @@ export default function Resume() {
           </svg>
         </a>
       </div>
+        
+    
+
       
 
-            {/* <div className="school-logo-container">
-            <img class="school-logos" src={csun}/>
-            <img class="school-logos" src={ljmu}/>
-            <img class="school-logos" src={ucsd}/>
-            </div> */}
+           
     </div>
   );
 }

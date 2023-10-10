@@ -72,7 +72,7 @@ export default function Contact() {
   return (
     <div class="contact-component fadeIn">
 
-      <section className="left-section-one">
+      <section className="contact-left-section-one">
         <h1 className="contact-h1">Please feel free to reach out!</h1>
 
         <h2>
@@ -131,39 +131,6 @@ export default function Contact() {
           </Form>
         </div>
       </section>
-
-      {/* <div className="contact-form">
-          <Form ref={form} onSubmit={(event) => stopFOUC(event)}>
-            <Form.Group>
-              <Form.Label>Name</Form.Label> <br></br>
-              <Form.Control
-                type="text"
-                placeholder="John Smith"
-                name="from_name"
-                id="from_name"
-              />
-              <br></br>
-              <Form.Label>Email address</Form.Label> <br></br>
-              <Form.Control
-                id="email"
-                type="email"
-                placeholder="name@example.com"
-                pattern="[A-Za-z0-9\.]+@[A-Za-z0-9\.]+\.[A-Za-z0-9\.]{1,10}"
-                name="email"
-              />
-            </Form.Group>
-            <Form.Group >
-              <Form.Label>Message</Form.Label> <br></br>
-              <Form.Control name="message" as="textarea"  />
-            </Form.Group>
-            <Button
-              className="submit-btn"
-              as="input"
-              type="submit"
-              value="Send"
-            />
-          </Form>
-      </div> */}
     </div>
   );
 }
