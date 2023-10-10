@@ -30,6 +30,7 @@ margin-left: -40px;
 
 .secondary-nav-link.active {
   color: rgb(245, 245, 245);
+  color: rgb(0, 0, 0);
   /* color: black; */
   box-shadow: 60px -16px rgb(0, 0, 0);
   box-shadow: 10px 5px 5px rgb(75, 75, 75);
@@ -43,6 +44,16 @@ margin-left: -40px;
   /* background-color: white; */
   color: rgb(255, 255, 255);
   font-family: "Oswald", sans-serif;
+}
+
+.secondary-nav-link:hover {
+  /* color: rgb(245, 245, 245);
+  color: rgb(0, 0, 0);
+  box-shadow: 60px -16px rgb(0, 0, 0);
+  box-shadow: 10px 5px 5px rgb(75, 75, 75);
+  padding-right: 15px;
+  transition: 800ms box-shadow; */
+
 }
 
 /* .portfolio-container-component{
@@ -114,6 +125,12 @@ margin-left: -40px;
 }
 
 .right-section-one{
+  width: 50%;
+  background-color: rgb(0, 0, 0);
+  height: 500px;
+}
+
+.contact-right-section-one{
   width: 50%;
   background-color: rgb(0, 0, 0);
   height: 500px;
@@ -255,14 +272,16 @@ a.secondary-nav-link {
   color: rgb(0, 0, 0);
   font-family: "Bebas Neue", sans-serif;
   color: #000; /* Text color */
-  -webkit-text-stroke: 0.01px #000000; /* Outline color and width for Chrome */
-  text-stroke: 2px #fff; /* Outline color and width for other browsers */
+  /* -webkit-text-stroke: 0.01px #000000; 
+  /* text-stroke: 2px #fff;  */
   transition: 200ms color ease;
 }
 
 a.secondary-nav-link:hover {
   color: rgb(255, 255, 255);
   color: rgb(255, 255, 255);
+  color: gray;
+  color: rgb(24, 24, 24);
 }
 
 svg {
@@ -353,7 +372,13 @@ path {
 
 
 .portfolio-nav-active{
-  background-color: rgb(255, 0, 0)
+  /* background-color: rgb(255, 0, 0); */
+  background-color: rgb(255, 255, 255);
+  color:black;
+}
+
+.portfolio-nav li{
+  color: pink;
 }
 
 /* -------------------------- Portfolio Above------------------------- */
@@ -437,7 +462,8 @@ path {
   text-align: center;
   cursor: pointer;
   font-family: "Bebas Neue", sans-serif;
-  color: white;
+  color: rgb(255, 172, 172);
+  
   transition: 200ms background-color ease-in;
 }
 
@@ -1303,6 +1329,16 @@ background-color: black;
   width: 100%;
   background-color: rgb(0, 0, 0);
   height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-right-section-one {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  height: 500px;
 }
  }
 
@@ -1331,6 +1367,13 @@ background-color: black;
 .secondary-nav-link{
   font-size: 44px;
 }
+
+/* .secondary-nav-link:hover {
+  color: rgb(245, 245, 245);
+  color: rgb(0, 0, 0);
+  color: black;
+  box-shadow: none;
+} */
 
   .secondary-nav-component {
     margin: 0;
@@ -1458,7 +1501,7 @@ background-color: black;
 
 
 .first-name{
-  /* margin-left: -30px; */
+  margin-left: -30px;
 }
 
   .secondary-nav-link{

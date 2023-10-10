@@ -97,7 +97,7 @@ export default function Contact() {
         </h2>
       </section>
 
-      <section className="right-section-one">
+      <section className="contact-right-section-one">
         <div className="contact-form">
           <Form ref={form} onSubmit={(event) => stopFOUC(event)}>
             <Form.Group>

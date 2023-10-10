@@ -3,8 +3,21 @@ import image5 from "../../images/image5.jpg";
 
 export default function About() {
   return (
-    <div className="about-component fadeIn">
+
+    <div>
+    <div className="about-component-container fadeIn">
       {/* <h2>Hello there!</h2> */}
+
+      {/* <ul className='coding-ul'> */}
+      <ul className='portfolio-nav'>
+        <li >Art</li>
+        <li >Music</li>
+        <li >Gaming</li>
+      </ul>
+
+      </div>
+      
+      <div className="about-component fadeIn">
 
       {/* <section>
         <p>
@@ -72,7 +85,7 @@ export default function About() {
       </section>
       <section className="right-section-one">
         <p style={{ color: "white", padding: "20px" }}>
-          During my time at the bootcamp, I learned how to build responsive and
+          {/* During my time at the bootcamp, I learned how to build responsive and
           user-friendly web applications, as well as how to collaborate with
           other developers using Git version control. Drawing from my previous
           experience as a high school art teacher, I also applied my insights
@@ -84,9 +97,20 @@ export default function About() {
           Express, React, Node.js) stack, which is widely used in modern web
           development. Overall, my combination of skills in anthropology and
           software development make me a well-rounded and versatile candidate
-          for a variety of roles in both fields.
+          for a variety of roles in both fields. */}
+           "I hold a Master of Science in forensic anthropology from Liverpool
+          John Moores University and a Bachelor of Arts in anthropology from
+          California State University, Northridge. My expertise spans
+          qualitative and quantitative research methods, and I've honed my
+          software development skills through a comprehensive full-stack coding
+          bootcamp at UCSD. With experience in building responsive,
+          user-friendly web applications and proficiency in programming
+          languages like HTML, CSS, and JavaScript, I offer a versatile skill
+          set that bridges anthropology and software development for a wide
+          range of roles."
         </p>
       </section>
+    </div>
     </div>
   );
 }
