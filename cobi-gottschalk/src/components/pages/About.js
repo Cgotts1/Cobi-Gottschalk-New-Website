@@ -10,9 +10,9 @@ export default function About() {
 
       {/* <ul className='coding-ul'> */}
       <ul className='portfolio-nav'>
-        <li >Art</li>
-        <li >Music</li>
-        <li >Gaming</li>
+        <li >Background</li>
+        <li >Work</li>
+        <li >Interests</li>
       </ul>
 
       </div>

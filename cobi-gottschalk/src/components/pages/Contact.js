@@ -72,7 +72,8 @@ export default function Contact() {
   return (
     <div class="contact-component fadeIn">
 
-      <section className="contact-left-section-one">
+      <section style={{alignItems: ""}} className="contact-left-section-one">
+        
         <h1 className="contact-h1">Please feel free to reach out!</h1>
 
         <h2>

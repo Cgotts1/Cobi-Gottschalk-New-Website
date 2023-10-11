@@ -1375,11 +1375,6 @@ background-color: black;
   width: 100%;
   background-color: rgb(255, 255, 255);
   height: 500px;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Bebas Neue'; */
   text-align: center;
 }
 
