@@ -16,7 +16,7 @@ export default function Resume() {
 
     
     
-    <div className="fadeIn resume-page">
+    <div className="fadeIn resume-page-component">
       
 
 

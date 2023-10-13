@@ -73,6 +73,8 @@ export default function Contact() {
     <div class="contact-component fadeIn">
 
       <section style={{alignItems: ""}} className="contact-left-section-one">
+
+        <div className="contact-left-section-one-content">
         
         <h1 className="contact-h1">Please feel free to reach out!</h1>
 
@@ -96,6 +98,7 @@ export default function Contact() {
             www.linkedin.com/in/cobi-gottschalk-6841b1165
           </a>
         </h2>
+        </div>
       </section>
 
       <section className="contact-right-section-one">
