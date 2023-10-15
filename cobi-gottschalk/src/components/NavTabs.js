@@ -1,5 +1,5 @@
 import React from 'react';
-
+import cv from "./pages/Tech-CV.pdf";
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
@@ -31,8 +31,10 @@ function NavTabs({ currentPage, handlePageChange }) {
       <div className='resume-contact'>
       <li className="navigation-item navigation-resume">
         <a
-          href="#resume"
-          onClick={() => handlePageChange('Resume')}
+          // href="#resume"
+          href={cv}
+          target="_blank" rel="noopener noreferrer"
+          // onClick={() => handlePageChange('Resume')}
           className={currentPage === 'Resume' ? 'navigation-link active' : 'navigation-link'}
         >
           Resume

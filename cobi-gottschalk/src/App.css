@@ -97,8 +97,10 @@ margin-left: -40px;
   justify-content: flex-end;
   font-family: 'Bebas Neue';
   
-  background-image: url('./images/image7.png');
+  /* background-image: url('./images/image7.png'); */
+  background-image: url('./images/head-shot.png');
   /* background-size: 210px; */
+  background-size: 204px;
   background-size: 204px;
   background-repeat: no-repeat;
   background-position: left;
@@ -139,7 +141,8 @@ margin-left: -40px;
   justify-content: flex-end;
   font-family: 'Bebas Neue';
   /* background-image: url('./images/image7.png'); */
-  background-size: 204px;
+  /* background-size: 277px; */
+  background-size: 18em;
   background-repeat: no-repeat;
   background-position: left;
 }
@@ -310,6 +313,7 @@ a.secondary-nav-link {
   /* -webkit-text-stroke: 0.01px #000000; 
   /* text-stroke: 2px #fff;  */
   transition: 200ms color ease;
+  text-wrap: nowrap;
 }
 
 a.secondary-nav-link:hover {
@@ -1161,7 +1165,7 @@ footer {
 .csun-h1{
   text-align: center;
   font-family: 'Bebas Neue';
-  background-color: rgb(219, 0, 0);
+  background-color: rgb(209, 5, 41);
   color: rgb(0, 0, 0);
   /* color: black; */
   border: solid black 2px;
@@ -1230,7 +1234,7 @@ footer {
 .ljmu-h1{
   text-align: center;
   font-family: 'Bebas Neue';
-  background-color: rgb(0, 82, 177);
+  background-color: rgb(0, 77, 157);
   color: white;
   border: solid black 2px;
 }
@@ -1286,10 +1290,10 @@ footer {
 .ucsd-h1{
   text-align: center;
   font-family: 'Bebas Neue';
-  background-color: rgb(11, 43, 83);
+  background-color: rgb(17, 39, 71);
   color: white;
   border: solid black 2px;
-  color: rgb(207, 163, 40);;
+  color: rgb(199, 147, 12);;
 
 }
 
