@@ -1,4 +1,5 @@
 import React from 'react';
+import cv from "./pages/Tech-CV.pdf";
 
 function NavTabsSecondary({ currentPage, handlePageChange }) {
   return (
@@ -41,8 +42,10 @@ function NavTabsSecondary({ currentPage, handlePageChange }) {
 
       <li className="nav-item hide show-on-mobile">
         <a
-          href="#resume"
-          onClick={() => handlePageChange('Resume')}
+        href={cv}
+        target="_blank" rel="noopener noreferrer"
+          // href="#resume"
+          // onClick={() => handlePageChange('Resume')}
           className={currentPage === 'Resume' ? 'secondary-nav-link active' : 'secondary-nav-link'}
         >
           Resume

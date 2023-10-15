@@ -64,7 +64,7 @@ export default function Research({ currentPage, handlePageChange }) {
         <li onClick={() => handleClick('All Projects')}>All Research</li>
         <li onClick={() => handleClick('Archaeology')}>Archaeology</li>
         <li onClick={() => handleClick('Forensic')}>Forensic</li>
-        <li onClick={() => handleClick('Cultural')}>Cultural</li>
+        {/* <li onClick={() => handleClick('Cultural')}>Cultural</li> */}
       </ul>
 
 

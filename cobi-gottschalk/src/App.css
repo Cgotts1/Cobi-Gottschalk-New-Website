@@ -12,7 +12,9 @@ a {
   color: rgb(255, 0, 0);
 }
 
-
+li{
+  text-wrap: nowrap;
+}
 
 body {
   margin: 0;
@@ -1832,3 +1834,44 @@ Suggested breakpoint: */
 
 
 /* ----------------------------------------------MEDIA-QUERIES ABOVE---------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+/* .nav-item {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+
+
+.nav-item {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  animation: fadeIn 0.5s ease;
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s; 
+} */
+
+/* @keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} */
+
+
+
