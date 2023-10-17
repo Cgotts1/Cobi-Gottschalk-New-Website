@@ -82,7 +82,7 @@ export default function Education({ currentPage, handlePageChange }) {
           <section className="education-left-section-one ucsd-image">
             <div className="left-container-one">
               <h1>Full Stack Coding Certificate</h1>
-              <h2>Cumulative 101.2%</h2>
+              <h2>Cumulative 100.05%</h2>
               <h3>Graduated 2023</h3>
 
               <p>Javascript</p>

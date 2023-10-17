@@ -6,6 +6,7 @@ import gamerMatch from "./images/gamer-match.png"
 import techBlog from "./images/tech-blog.png"
 import noteTaker from "./images/note-taker.png"
 import spotifyAssistant from "./images/spotify-assistant.png"
+import realEstateGlossay from "./images/real-estate-glossary.png"
 
 
 export const projects = [
@@ -17,6 +18,15 @@ export const projects = [
       projectImage: 'https://cgotts1.github.io/V4-Portfolio/images/film-finder.jpg',
       projectSummary: "A movie search web application that utilizes two APIs and local storage to render a movie's information and its respective movie poster.",
       projectTech: "🛠 HTML | CSS | JS | Bootstrap | APIs: OMDB & TMDB",
+    },
+    {
+      projectType: 'Front End',
+      projectName: 'Real Estate Glossary',
+      projectGitHub: 'https://github.com/Cgotts1',
+      projectSite:'https://cgotts1.github.io/Real-Estate-Glossary/',
+      projectImage: `${realEstateGlossay}`,
+      projectSummary: "This JavaScript application leverages JSON to create an interactive real estate glossary, enabling users to study and expand their knowledge of real estate terminology. Users can easily toggle definitions and terms for a seamless learning experience and efficiently search for specific real estate terms, making it a valuable resource for both beginners and professionals in the field.",
+      projectTech: "🛠 HTML | CSS | JS",
     },
     {
       projectType: 'Front End',

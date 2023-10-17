@@ -8,7 +8,7 @@ function NavTabsSecondary({ currentPage, handlePageChange }) {
     <div className='secondary-nav-component'>
 
     <ul className="nav-link">  
-      <li className="nav-item">
+      <li className="nav-item" style={{ whiteSpace: 'nowrap' }}>
         <a
           href="#about"
           onClick={() => handlePageChange('About')}

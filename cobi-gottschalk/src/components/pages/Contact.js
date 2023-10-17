@@ -9,7 +9,7 @@ export default function Contact() {
 
   function stopFOUC(event) {
     var i = 0;
-    var txt = "Thank you! Your form was submitted.";
+    var txt = "Message Sent!";
     var speed = 50;
 
     function typeWriter() {
@@ -45,7 +45,7 @@ export default function Contact() {
 
       emailjs
         .sendForm(
-          "service_aejadxf",
+          `${process.env.REACT_APP_SERVICE_ID}`,
           "template_fonglvd",
           form.current,
           "3yYZVuNYPo1KCexYf"
