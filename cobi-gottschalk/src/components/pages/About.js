@@ -140,12 +140,12 @@ export default function Education({ currentPage, handlePageChange }) {
         >
           Background
         </li>
-        <li
+        {/* <li
           onClick={() => handleListItemClick("ljmu-div", "LJMU")}
           className={activeListItem === "LJMU" ? "portfolio-nav-active" : ""}
         >
           Experience
-        </li>
+        </li> */}
         <li
           onClick={() => handleListItemClick("ucsd-div", "UCSD")}
           className={activeListItem === "UCSD" ? "portfolio-nav-active" : ""}
@@ -181,7 +181,7 @@ export default function Education({ currentPage, handlePageChange }) {
               className="left-container-one"
             >
               <p>
-                With a Master of Science degree in forensic anthropology from
+                {/* With a Master of Science degree in forensic anthropology from
                 Liverpool John Moores University and a Bachelor of Arts degree
                 in anthropology from California State University, Northridge, my
                 educational background in anthropology is well-rounded. I have
@@ -189,20 +189,37 @@ export default function Education({ currentPage, handlePageChange }) {
                 Furthermore, I have expanded my skill set through a
                 comprehensive full stack coding bootcamp at UCSD, where I gained
                 practical experience and sharpened my abilities in software
-                development and web applications.
+                development and web applications. */}
+                With a strong foundation in forensic anthropology and a passion
+                for research, I've dedicated my academic journey to
+                understanding the complexities of human remains and the science
+                of decomposition. My journey started with a Bachelor's degree in
+                anthropology and continued with a Master's in Forensic
+                Anthropology from Liverpool John Moores University. I've
+                conducted extensive research projects such as investigating size
+                correlations between the acetabulum and proximal femora as well as
+                examining pollen retention on articles of clothing. Furthermore,
+                my enthusiasm for learning led me to explore the world of
+                software development, and I successfully completed a full-stack
+                coding bootcamp. Alongside this, my experience as a high school
+                art instructor has honed my communication skills and my ability
+                to convey complex ideas to diverse audiences. Now, I'm excited
+                to combine my unique background and diverse skill set to make
+                meaningful contributions in both the academic and tech-related
+                fields.
               </p>
             </div>
           </section>
         </div>
       </div>
 
-      <div className={`ljmu-div ${activeDiv === "ljmu-div" ? "" : "hide"}`}>
-        {/* <h1 className="ljmu-h1 fadeIn">Liverpool John Moores University</h1> */}
+      {/* <div className={`ljmu-div ${activeDiv === "ljmu-div" ? "" : "hide"}`}>
+       
 
         <div className="container-right-left fadeIn">
           <section className="left-section-one"></section>
 
-          {/* <section className="education-right-section-one"> */}
+      
           <section
             style={{
               display: "flex",
@@ -241,7 +258,7 @@ export default function Education({ currentPage, handlePageChange }) {
             </div>
           </section>
         </div>
-      </div>
+      </div> */}
 
       <div className={`ucsd-div ${activeDiv === "ucsd-div" ? "" : "hide"}`}>
         {/* <h1 className="ucsd-h1 fadeIn">University of California, San Diego</h1> */}
@@ -271,16 +288,14 @@ export default function Education({ currentPage, handlePageChange }) {
               <p>
                 Beyond my professional pursuits, I am deeply passionate about
                 music, with a special love for playing the piano and guitar.
-                These instruments have been my creative outlets and sources of
-                solace for as long as I can remember. Whether I'm lost in the
-                intricate melodies of classical piano compositions or strumming
-                the strings of my guitar to craft heartfelt ballads, music
-                provides me with a unique avenue for self-expression and
-                emotional release. It's not just a hobby; it's a constant source
+                These instruments have been my creative outlets for over 10 years now.
+                Whether I'm learning a new song
+                or just plucking away at random
+                strings on my guitar, music
+                has provided me with a unique avenue for self-expression and
+                emotional release. It has been been a consistent source
                 of inspiration that fuels my creativity and enriches my life.
-                Exploring new melodies and harmonies, experimenting with
-                different styles, and occasionally composing my own music is an
-                endless source of joy and an integral part of who I am.
+                
               </p>
             </div>
           </section>
