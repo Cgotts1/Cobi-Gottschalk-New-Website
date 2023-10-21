@@ -27,7 +27,7 @@ export const researchProjects = [
         projectImage: `${pollenJeans}`,
         projectSummary: "This research aimed to investigate whether pollen present in soil, transferred onto clothing, could still be detected after washing. After applying soil containing pollen to denim fabric and subjecting it to multiple wash cycles, the study revealed that even after three standard wash cycles, pollen traces remained on the fabric, providing valuable insights for law enforcement and archaeologists regarding the persistence of pollen on clothing.",
         projectTech: "🛠 Denim Jeans | AEG Washing Machine | Ariel Detergent | Micron Mesh",
-      projectContributers: "Supervisor: Dr. Christopher Hunt (LJMU)",
+      projectContributers: "Supervisor: Dr. Chris Hunt (LJMU)",
       },
       {
         projectType: 'Archaeology',
