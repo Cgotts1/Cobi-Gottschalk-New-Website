@@ -58,7 +58,7 @@ export default function Research({ currentPage, handlePageChange }) {
     
     <div className="fadeIn">
 
-        <h1 className='research-h1'>Anthropology</h1>
+        {/* <h1 className='research-h1'>Anthropology</h1> */}
  
 <ul className='coding-ul'>
         <li onClick={() => handleClick('All Projects')}>All Research</li>
