@@ -26,7 +26,7 @@ function Hero({ currentPage, handlePageChange }) {
         <source src={videoBackground} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-<p style={{color: "white"}}>fjefhejfhj fhejfhe jhfe jfhejfh ejfh fhej fhe jfh jefh ejf hefjh efj hefj h jefhejfhejfhejfh</p>
+{/* <p style={{color: "white"}}>fjefhejfhj fhejfhe jhfe jfhejfh ejfh fhej fhe jfh jefh ejf hefjh efj hefj h jefhejfhejfhejfh</p> */}
       {/* Content on top of the video */}
       <div className='hero-content'>
         {/* Your content goes here */}
