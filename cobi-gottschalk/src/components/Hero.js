@@ -8,10 +8,9 @@ import videoBackground from './../images/background-video.mp4';
 
 function Hero({ currentPage, handlePageChange }) {
 
-
+// video background
   return (
     <div className='hero-component'>
-      {/* Video background */}
       <video
         autoPlay
         loop
@@ -27,7 +26,7 @@ function Hero({ currentPage, handlePageChange }) {
         <source src={videoBackground} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-
+<p style={{color: "white"}}>fjefhejfhj fhejfhe jhfe jfhejfh ejfh fhej fhe jfh jefh ejf hefjh efj hefj h jefhejfhejfhejfh</p>
       {/* Content on top of the video */}
       <div className='hero-content'>
         {/* Your content goes here */}

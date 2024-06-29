@@ -30,7 +30,7 @@ export default function Education({ currentPage, handlePageChange }) {
           onClick={() => handleListItemClick("ucsd-div", "UCSD")}
           className={activeListItem === "UCSD" ? "portfolio-nav-active" : ""}
         >
-          Interests
+          Services
         </li>
     
       </ul>

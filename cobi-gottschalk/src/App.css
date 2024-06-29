@@ -31,87 +31,54 @@ margin-left: -40px;
 }
 
 .secondary-nav-link.active {
-  color: rgb(245, 245, 245);
   color: rgb(0, 0, 0);
-  /* color: black; */
   box-shadow: 60px -16px rgb(0, 0, 0);
   box-shadow: 10px 5px 5px rgb(75, 75, 75);
   padding: 15px;
   transition: 800ms box-shadow;
-  /* box-shadow: inset 5em 1em rgb(71, 71, 71); */
- 
 }
 
 .secondary-nav-link .active {
-  /* background-color: white; */
   color: rgb(255, 255, 255);
   font-family: "Oswald", sans-serif;
 }
 
 .secondary-nav-link:hover {
-  /* color: rgb(245, 245, 245);
+  color: rgb(245, 245, 245);
   color: rgb(0, 0, 0);
   box-shadow: 60px -16px rgb(0, 0, 0);
   box-shadow: 10px 5px 5px rgb(75, 75, 75);
   padding-right: 15px;
-  transition: 800ms box-shadow; */
+  transition: 800ms box-shadow;
 
 }
-
-/* .portfolio-container-component{
-  height: 100vh;
-} */
-
-
 
 .contact-left-section-one{
   width: 50%;
   background-color: rgb(255, 255, 255);
   height: 500px;
   display: flex;
-  /* flex-direction: column; */
   align-items: center;
   justify-content: flex-end;
   font-family: 'Bebas Neue';
-  
-  
-  /* background-size: 210px; */
   background-size: 204px;
   background-repeat: no-repeat;
   background-position: left;
 
-  /* background-position: right; */
-  
-  /* background-position: left;
-  transform: scaleX(-1); */
 }
-
-
-
 
 .left-section-one{
   width: 50%;
   background-color: rgb(255, 255, 255);
   height: 500px;
   display: flex;
-  /* flex-direction: column; */
   align-items: center;
   justify-content: flex-end;
   font-family: 'Bebas Neue';
-  
-  /* background-image: url('./images/image7.png'); */
-  /* background-image: url('./images/head-shot.png'); */
   background-image: url('./images/aipic.png');
-  /* background-size: 210px; */
-  background-size: 204px;
   background-size: 204px;
   background-repeat: no-repeat;
   background-position: left;
-
-  /* background-position: right; */
-  
-  /* background-position: left;
-  transform: scaleX(-1); */
 }
 
 
@@ -125,14 +92,10 @@ margin-left: -40px;
   align-items: center;
   justify-content: flex-end;
   font-family: 'Bebas Neue';
-  /* background-image: url('./images/image7.png'); */
   background-size: 204px;
   background-repeat: no-repeat;
   background-position: left;
 }
-
-
-
 
 .left-section-one{
   width: 50%;
@@ -143,8 +106,6 @@ margin-left: -40px;
   align-items: center;
   justify-content: flex-end;
   font-family: 'Bebas Neue';
-  /* background-image: url('./images/image7.png'); */
-  /* background-size: 277px; */
   background-size: 18em;
   background-repeat: no-repeat;
   background-position: left;
@@ -159,7 +120,6 @@ margin-left: -40px;
   align-items: center;
   justify-content: flex-end;
   font-family: 'Bebas Neue';
-  /* background-image: url('./images/image7.png'); */
   background-size: 204px;
   background-repeat: no-repeat;
   background-position: left;
@@ -186,13 +146,6 @@ margin-left: -40px;
 Footer {
   margin-top: auto;
 }
-
-
-
-
-
-
-
 
 
 ::-webkit-scrollbar {
@@ -222,18 +175,7 @@ Footer {
   /* background: #aaaaaa;  */
 }
 
-
-
-
-
-
-
-
-
 /* -------------------------UNIVERSAL RULES ABOVE------------------------------ */
-
-
-
 
 
 .sticky-nav{
@@ -249,11 +191,6 @@ Footer {
       bottom: 0;
       z-index: 2;
 }
-
-
-
-
-
 
 /*------------------------------ NavTabs Component BELOW---------------------------- */
 
@@ -313,16 +250,11 @@ a.secondary-nav-link {
   color: rgb(0, 0, 0);
   font-family: "Bebas Neue", sans-serif;
   color: #000; /* Text color */
-  /* -webkit-text-stroke: 0.01px #000000; 
-  /* text-stroke: 2px #fff;  */
   transition: 200ms color ease;
   text-wrap: nowrap;
 }
 
 a.secondary-nav-link:hover {
-  color: rgb(255, 255, 255);
-  color: rgb(255, 255, 255);
-  color: gray;
   color: rgb(24, 24, 24);
 }
 
@@ -357,11 +289,6 @@ path {
   background-color: rgb(5, 5, 5);
   width: 100%;
   z-index: 0; /* Increase the z-index value to bring it in front of hero-image-two */
-  /* background-image: url("./images/image7.png");
-  background-size: 150px;
-  background-position: left;
-  background-repeat: no-repeat; */
-  /* background-image: url("https://images.unsplash.com/photo-1542362567-b07e54358753?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNhcnN8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=500&q=60"); */
   background-size: cover;
   background-position: center;
   background-size: cover;
@@ -369,8 +296,6 @@ path {
 }
 
 .hero-image {
-  /* width: 200px; */
-  /* height: 100%; */
 }
 
 .secondary-nav-and-hero {
@@ -381,7 +306,6 @@ path {
 
 .hero-portfolio{
   background-color: rgb(129, 0, 0);
-  /* height: 100%; */
   width: 100%;
   z-index: 1;
 }
@@ -435,9 +359,6 @@ path {
 /*--------------------------- CODING COMPONENT BELOW-------------------- */
 
 
-
-
-
 .coding-ul{
   display: flex;
   justify-content: space-around;
@@ -472,16 +393,11 @@ path {
 
 
 
-
-
-
-
 /*--------------------------- Portfolio Page--------------------------------- */
 
 
 /* .portfolio-container{
   display: flex;
-
 } */
 
 
